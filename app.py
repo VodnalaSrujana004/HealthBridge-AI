@@ -14,7 +14,7 @@ st.set_page_config(
 # --- API Configuration ---
 try:
     # Use Streamlit secrets for deployment, fallback to direct key for local development
-    api_key = st.secrets.get("GEMINI_API_KEY", "AIzaSyDf5NK3kYz1OITVovJmn4awerHwiMHpK1M")
+    api_key = st.secrets.get("GEMINI_API_KEY", "Add_your_gemini_api_key")
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-1.5-flash')
 
