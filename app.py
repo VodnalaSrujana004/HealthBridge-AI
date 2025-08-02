@@ -48,8 +48,8 @@ page = st.sidebar.radio(
 
 # --- Main Application Logic ---
 if page == "Chat Assistant":
-    st.header("🤖 General Health Chat")
-    st.markdown("Ask me anything about maternal and child health!")
+    st.header("🤖 General Health Chat & Personal AI Assistant")
+    st.markdown("Ask me anything about maternal, child health, technology...!")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
