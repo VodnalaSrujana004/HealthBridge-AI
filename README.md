@@ -114,6 +114,3 @@ Contributions and suggestions are welcome! Please open issues or submit pull req
 
 **HealthBridge-AI** is committed to supporting maternal and child health for communities worldwide.
 
----
-
-Let me know if you’d like further customization or want this README pushed to your repository!
