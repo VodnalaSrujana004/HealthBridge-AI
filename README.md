@@ -1,4 +1,4 @@
-# Team : Beta_Coders 
+# Team : Beta_Coders
 
 ### Team Members: V.Srujana, D.Devika, A.Hansika, J.Likithanjali, I.Srimai, M.Vardhan, B.Umesh
 
@@ -12,11 +12,11 @@
 
 **HealthBridge** is an AI-powered Streamlit chatbot built to:
 
-- Provide real-time maternal and child health guidance  
-- Answer health queries using advanced NLP  
-- Suggest early interventions based on symptoms  
-- Educate women on vaccination, nutrition, reproductive health & childcare  
-- Monitor and support mental health via sentiment-aware conversations  
+- Provide real-time maternal and child health guidance
+- Answer health queries using advanced NLP
+- Suggest early interventions based on symptoms
+- Educate women on vaccination, nutrition, reproductive health & childcare
+- Monitor and support mental health via sentiment-aware conversations
 
 No sensors required – just text or (optionally) voice input.
 
@@ -24,24 +24,29 @@ No sensors required – just text or (optionally) voice input.
 
 ## 📦 Modules Overview
 
-**Symptom Checker (Mother/Baby)**  
-- Input: `My child has a fever and rash.`  
+**Symptom Checker (Mother/Baby)**
+
+- Input: `My child has a fever and rash.`
 - Output: `This could be a sign of measles or viral infection. Please ensure hydration. Visit your nearest clinic if rash persists beyond 3 days.`
 
-**Maternal Guidance**  
-- Covers antenatal care, pregnancy nutrition, vaccine reminders, breastfeeding tips.  
+**Maternal Guidance**
+
+- Covers antenatal care, pregnancy nutrition, vaccine reminders, breastfeeding tips.
 - Example: `What should I eat during second trimester?` → Nutritional plan via AI.
 
-**Mental Health Assistant (Simple Sentiment Bot)**  
-- Detects distress or postnatal depression from user language  
+**Mental Health Assistant (Simple Sentiment Bot)**
+
+- Detects distress or postnatal depression from user language
 - Example: `I feel like crying every day.` → Suggests talking to someone, supportive advice, helpline links.
 
-**Immunization & Health Tips Educator**  
-- Based on WHO/UNICEF schedules  
+**Immunization & Health Tips Educator**
+
+- Based on WHO/UNICEF schedules
 - Explains vaccine due dates, common childhood diseases, hygiene education.
 
-**AI-Powered Response System**  
-- LLMs (Mistral, LLaMA-2, BERT) + fine-tuned domain prompts  
+**AI-Powered Response System**
+
+- LLMs (Mistral, LLaMA-2, BERT) + fine-tuned domain prompts
 - Multilingual queries, responds in plain language
 
 ---
@@ -58,13 +63,13 @@ No sensors required – just text or (optionally) voice input.
 
 ## 📊 Tech Stack
 
-| Component        | Tech Used                                  |
-|------------------|--------------------------------------------|
-| Frontend         | Streamlit, streamlit-chat, HTML/CSS        |
-| NLP Engine       | HuggingFace Transformers, Gemini Pro       |
-| Mental Health Bot| Sentiment Analysis (RoBERTa)               |
-| DB (optional)    | Firebase (online) / SQLite (offline)       |
-| Hosting          | Streamlit Cloud / GCP / LocalHost          |
+| Component         | Tech Used                            |
+| ----------------- | ------------------------------------ |
+| Frontend          | Streamlit, streamlit-chat, HTML/CSS  |
+| NLP Engine        | HuggingFace Transformers, Gemini Pro |
+| Mental Health Bot | Sentiment Analysis (RoBERTa)         |
+| DB (optional)     | Firebase (online) / SQLite (offline) |
+| Hosting           | Streamlit Cloud / GCP / LocalHost    |
 
 ---
 
@@ -85,6 +90,13 @@ No sensors required – just text or (optionally) voice input.
 - WhatsApp/Telegram integration
 - Voice AI for illiterate users
 - AI diagnosis assistance via X-ray report images (Phase 2)
+
+---
+
+## 📂 Project Presentation
+
+You can view our detailed project presentation here:  
+[📄 HealthBridge Presentation (PPTX)](docs/HealthBridge_Presentation.pptx)
 
 ---
 
@@ -113,4 +125,3 @@ Contributions and suggestions are welcome! Please open issues or submit pull req
 ---
 
 **HealthBridge-AI** is committed to supporting maternal and child health for communities worldwide.
-
